@@ -45,7 +45,8 @@ The trained model was evaluated using a test dataset.
 
 ### 2.3 Approach 3: Fine-TunedEmbeddingModel-(FastText Supervised Learning Model)
 - Applied the same text preprocessing techniques as in Approach 2.
-- Prepare Data for FastText- Generated a file where each line included a label, which starts with  __label__ followed by the processed text.
+- Prepare Data for FastText- Generated a file where each line included a label, which starts with  ' ' 
+ ' __label__ ' followed by the processed text.
 - Model Training - Using parameters (epoch=25, lr=0.5, wordNgrams=2), Fast Text model was trained
 - Prediction and Evaluation- Trained model was used to predict sentiment, on test and validation dataset and
  analyzed the results
@@ -65,3 +66,32 @@ The trained model was evaluated using a test dataset.
 - Precision: 0.90 (Negative), 0.88 (Positive)
 - Recall: 0.87 (Negative), 0.91 (Positive)
 - F1-score: 0.89 (Overall)
+
+---
+### 3.2 Results of Mode2 - TF-IDF (With Stop Words)
+#### Test Dataset
+- Accuracy: 0.894
+- Precision: 0.90 (Negative), 0.88 (Positive)
+- Recall: 0.88 (Negative), 0.91 (Positive)
+- F1-score: 0.89 (Overall)
+
+#### Validation Dataset
+- Accuracy: 0.8866
+- Precision: 0.90 (Negative), 0.87 (Positive)
+- Recall: 0.87 (Negative), 0.90 (Positive)
+- F1-score: 0.89 (Overall)
+
+---
+### 3.3 Results of Mode3 - Fast Text Embedding Model
+#### Test Dataset
+- Accuracy: 0.9072
+- Precision: 0.91 (Negative), 0.90 (Positive)
+- Recall: 0.90 (Negative), 0.92 (Positive)
+- F1-score: 0.91 (Overall)
+  
+#### Validation Dataset
+- Accuracy: 0.9058
+- Precision: 0.91 (Negative), 0.90 (Positive)
+- Recall: 0.90 (Negative), 0.91 (Positive)
+- F1-score: 0.90 (Overall)
+  
