@@ -45,7 +45,7 @@ The trained model was evaluated using a test dataset.
 ### Approach 3: Fine-TunedEmbeddingModel-(FastText Supervised Learning Model)
 - Applied the same text preprocessing techniques as in Approach 2.
 - Prepare Data for FastText- Generated a file where each line included a label, which starts with  ' ' 
- ' __label__ ' followed by the processed text.
+  `__label__` followed by the processed text.
 - Model Training - Using parameters (epoch=25, lr=0.5, wordNgrams=2), Fast Text model was trained
 - Prediction and Evaluation- Trained model was used to predict sentiment, on test and validation dataset and
  analyzed the results
@@ -107,9 +107,9 @@ Three different approaches were applied for sentiment analysis in this study.
 ---
 ### How to Run
 1. Clone the repository:
-   git clone https://github.com/yourusername/your-repository.git
+  `git clone https://github.com/yourusername/your-repository.git`
    cd your-repository
 
 2. Install required dependencies:
-   pip install nltk fasttext sklearn
+   `pip install nltk fasttext sklearn`
 
