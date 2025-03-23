@@ -39,5 +39,14 @@ The trained model was evaluated using a test dataset.
   TfidfVectorizer(stop_words='english')
 - Repeating the feature extraction process
 - Model Training- Using newly transformed TF-IDF dataset, another Logistic Regression model was trained.
-- Evaluation Evaluate the model performances and compared with approach 1
+- Evaluate the model performances and compared with approach 1
+
+---
+
+### 2.3 Approach 3: Fine-TunedEmbeddingModel-(FastText Supervised Learning Model)
+- Applied the same text preprocessing techniques as in Approach 2.
+- Prepare Data for FastText- Generated a file where each line included a label, which starts with  __label__ followed by the processed text.
+- Model Training - Using parameters (epoch=25, lr=0.5, wordNgrams=2), Fast Text model was trained
+- Prediction and Evaluation- Trained model was used to predict sentiment, on test and validation dataset and
+ analyzed the results
 
