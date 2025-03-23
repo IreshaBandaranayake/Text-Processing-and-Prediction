@@ -108,10 +108,13 @@ Three different approaches were applied for sentiment analysis in this study.
 ### How to Run
 1. Clone the repository:
    ```python
-  `git clone https://github.com/IreshaBandaranayake/Text-Processing-and-Prediction`
-   cd your-repository
+  git clone https://github.com/IreshaBandaranayake/Text-Processing-and-Prediction
 
-3. Install required dependencies:
+
+2. Install required dependencies:
    ```python
-   `pip install nltk fasttext sklearn`
+   pip install nltk fasttext sklearn
 
+3. Run the sentiment analysis script:
+```python
+python sentiment_analysis.py
