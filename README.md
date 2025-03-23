@@ -1,10 +1,7 @@
-# Text-Processing-and-Prediction
-Sentimental Analysis of a data set, using different Text Processing approaches
-
-# Sentiment Analysis of IMDB Dataset
+# Text-Processing-and-Prediction ,Sentiment Analysis of IMDB Dataset
 
 ## 1. Introduction
-This report is based on sentiment analysis of the IMDB dataset using different text processing approaches, training a model for sentiment classification, and evaluating its performance.  
+This project is based on sentiment analysis of the IMDB dataset using different text processing approaches, training a model for sentiment classification, and evaluating its performance.  
 
 Three approaches were used:
 - **Classification Model using Text Features**  
