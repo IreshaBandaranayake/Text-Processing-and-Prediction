@@ -50,3 +50,18 @@ The trained model was evaluated using a test dataset.
 - Prediction and Evaluation- Trained model was used to predict sentiment, on test and validation dataset and
  analyzed the results
 
+---
+
+## 3. Analysis of the Results
+### 3.1 Results of Model 1 - TF-IDF (With Stop Words)
+#### Test Dataset
+- Accuracy: 0.8928
+- Precision: 0.90 (Negative), 0.88 (Positive)
+- Recall: 0.88 (Negative), 0.90 (Positive)
+- F1-score: 0.89 (Overall)
+
+#### Validation Dataset
+- Accuracy: 0.89
+- Precision: 0.90 (Negative), 0.88 (Positive)
+- Recall: 0.87 (Negative), 0.91 (Positive)
+- F1-score: 0.89 (Overall)
