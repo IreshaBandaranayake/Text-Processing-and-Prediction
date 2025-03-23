@@ -1,4 +1,5 @@
-# Text-Processing-and-Prediction ,Sentiment Analysis of IMDB Dataset
+# Text-Processing-and-Prediction 
+(Sentiment Analysis of IMDB Dataset)
 
 This project is based on sentiment analysis of the IMDB dataset using different text processing approaches, training a model for sentiment classification, and evaluating its performance.  
 
