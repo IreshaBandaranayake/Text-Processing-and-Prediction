@@ -33,7 +33,11 @@ The trained model was evaluated using a test dataset.
 ---
 
 ### 2.2 Approach 2: Model Applying Stop Word Processing
-- Applied the same preprocessing techniques as in Approach 1.  
+- Applied the same text preprocessing techniques as in Approach 1.  
 - Additionally, removed stop words using:  
   ```python
   TfidfVectorizer(stop_words='english')
+- Repeating the feature extraction process
+- Model Training- Using newly transformed TF-IDF dataset, another Logistic Regression model was trained.
+ Evaluation Evaluate the model performances and compared with approach 1
+
