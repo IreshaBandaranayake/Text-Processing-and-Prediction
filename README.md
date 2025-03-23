@@ -107,7 +107,6 @@ Three different approaches were applied for sentiment analysis in this study.
 ---
 ### How to Run
 1. Clone the repository:
-  
   `git clone https://github.com/IreshaBandaranayake/Text-Processing-and-Prediction`
 
 
