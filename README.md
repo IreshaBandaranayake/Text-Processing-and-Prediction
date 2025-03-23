@@ -39,5 +39,5 @@ The trained model was evaluated using a test dataset.
   TfidfVectorizer(stop_words='english')
 - Repeating the feature extraction process
 - Model Training- Using newly transformed TF-IDF dataset, another Logistic Regression model was trained.
- Evaluation Evaluate the model performances and compared with approach 1
+- Evaluation Evaluate the model performances and compared with approach 1
 
