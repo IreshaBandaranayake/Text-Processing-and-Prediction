@@ -112,9 +112,7 @@ Three different approaches were applied for sentiment analysis in this study.
 
 
 2. Install required dependencies:
- ```python
-pip install nltk fasttext sklearn
+   `pip install nltk fasttext sklearn`
 
 3. Run the sentiment analysis script:
-```python
-python sentiment_analysis.py
+   `python sentiment_analysis.py`
