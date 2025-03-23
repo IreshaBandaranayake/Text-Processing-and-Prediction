@@ -1,6 +1,5 @@
 # Text-Processing-and-Prediction ,Sentiment Analysis of IMDB Dataset
 
-## 1. Introduction
 This project is based on sentiment analysis of the IMDB dataset using different text processing approaches, training a model for sentiment classification, and evaluating its performance.  
 
 Three approaches were used:
@@ -12,9 +11,9 @@ These models were evaluated using classification accuracy, precision, recall, an
 
 ---
 
-## 2. Steps of the Three Approaches
+## Steps of the Three Approaches
 
-### 2.1 Approach 1: Classification Model using Text Features
+### Approach 1: Classification Model using Text Features
 **Text Preprocessing**  
 The IMDB dataset contains movie reviews labeled as either positive or negative. Before applying to the model, the dataset was preprocessed:  
 - **Removing Punctuations and Extra Spaces**: Replaced all punctuations with spaces except a-z and A-Z, then removed extra spaces.  
@@ -32,7 +31,7 @@ The trained model was evaluated using a test dataset.
 
 ---
 
-### 2.2 Approach 2: Model Applying Stop Word Processing
+### Approach 2: Model Applying Stop Word Processing
 - Applied the same text preprocessing techniques as in Approach 1.  
 - Additionally, removed stop words using:  
   ```python
@@ -43,7 +42,7 @@ The trained model was evaluated using a test dataset.
 
 ---
 
-### 2.3 Approach 3: Fine-TunedEmbeddingModel-(FastText Supervised Learning Model)
+### Approach 3: Fine-TunedEmbeddingModel-(FastText Supervised Learning Model)
 - Applied the same text preprocessing techniques as in Approach 2.
 - Prepare Data for FastText- Generated a file where each line included a label, which starts with  ' ' 
  ' __label__ ' followed by the processed text.
@@ -53,8 +52,8 @@ The trained model was evaluated using a test dataset.
 
 ---
 
-## 3. Analysis of the Results
-### 3.1 Results of Model 1 - TF-IDF (With Stop Words)
+## Analysis of the Results
+### Results of Model 1 - TF-IDF (With Stop Words)
 #### Test Dataset
 - Accuracy: 0.8928
 - Precision: 0.90 (Negative), 0.88 (Positive)
@@ -68,7 +67,7 @@ The trained model was evaluated using a test dataset.
 - F1-score: 0.89 (Overall)
 
 ---
-### 3.2 Results of Mode2 - TF-IDF (With Stop Words)
+### Results of Mode2 - TF-IDF (With Stop Words)
 #### Test Dataset
 - Accuracy: 0.894
 - Precision: 0.90 (Negative), 0.88 (Positive)
@@ -82,7 +81,7 @@ The trained model was evaluated using a test dataset.
 - F1-score: 0.89 (Overall)
 
 ---
-### 3.3 Results of Mode3 - Fast Text Embedding Model
+### Results of Mode3 - Fast Text Embedding Model
 #### Test Dataset
 - Accuracy: 0.9072
 - Precision: 0.91 (Negative), 0.90 (Positive)
@@ -94,4 +93,23 @@ The trained model was evaluated using a test dataset.
 - Precision: 0.91 (Negative), 0.90 (Positive)
 - Recall: 0.90 (Negative), 0.91 (Positive)
 - F1-score: 0.90 (Overall)
+
+---
+###
+Three different approaches were applied for sentiment analysis in this study.
+
+- TF-IDF models provided acceptable accuracy (~89%), with stop-word removal showing only slight improvement.
+
+- FastText performed the best, achieving the highest accuracy (90.7%) and demonstrating superior ability in identifying word meanings, handling spelling mistakes, and recognizing unseen words.
+
+- FastText is the preferred choice for this task due to its word embedding capabilities and robustness in sentiment analysis.
   
+---
+### How to Run
+1. Clone the repository:
+   git clone https://github.com/yourusername/your-repository.git
+   cd your-repository
+
+2. Install required dependencies:
+   pip install nltk fasttext sklearn
+
