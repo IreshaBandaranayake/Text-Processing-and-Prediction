@@ -1,4 +1,4 @@
-# Text-Processing-and-Prediction 
+### Text-Processing-and-Prediction 
 (Sentiment Analysis of IMDB Dataset)
 
 This project is based on sentiment analysis of the IMDB dataset using different text processing approaches, training a model for sentiment classification, and evaluating its performance.  
@@ -12,7 +12,7 @@ These models were evaluated using classification accuracy, precision, recall, an
 
 ---
 
-## Steps of the Three Approaches
+### Steps of the Three Approaches
 
 ### Approach 1: Classification Model using Text Features
 **Text Preprocessing**  
@@ -53,7 +53,7 @@ The trained model was evaluated using a test dataset.
 
 ---
 
-## Analysis of the Results
+### Analysis of the Results
 ### Results of Model 1 - TF-IDF (With Stop Words)
 #### Test Dataset
 - Accuracy: 0.8928
